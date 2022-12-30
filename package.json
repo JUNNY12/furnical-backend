@@ -15,7 +15,10 @@
     "@strapi/plugin-users-permissions": "4.5.4",
     "@strapi/provider-upload-cloudinary": "^4.5.4",
     "@strapi/strapi": "4.5.4",
-    "better-sqlite3": "7.4.6"
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.7.0",
+    "pg-connection-string": "^2.5.0",
+    "sqlite3": "latest"
   },
   "author": {
     "name": "A Strapi developer"
