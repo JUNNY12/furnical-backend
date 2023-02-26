@@ -76,6 +76,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::shipping-address.shipping-address"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::post.post",
+      "inversedBy": "users_permissions_users"
     }
   }
 }
