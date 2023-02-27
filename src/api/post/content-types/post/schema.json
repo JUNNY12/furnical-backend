@@ -35,7 +35,7 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "category"
+      "targetField": "geolocation"
     },
     "users_permissions_users": {
       "type": "relation",
