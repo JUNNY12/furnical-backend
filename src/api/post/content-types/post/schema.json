@@ -19,9 +19,6 @@
     "description": {
       "type": "string"
     },
-    "geolocation": {
-      "type": "string"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -38,6 +35,12 @@
       "relation": "oneToMany",
       "target": "plugin::users-permissions.user",
       "mappedBy": "post"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "latitude": {
+      "type": "float"
     }
   }
 }
