@@ -41,6 +41,9 @@
     },
     "latitude": {
       "type": "float"
+    },
+    "postID": {
+      "type": "string"
     }
   }
 }
