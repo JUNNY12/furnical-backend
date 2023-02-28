@@ -14,7 +14,7 @@
   "attributes": {
     "category": {
       "type": "string",
-      "unique": true
+      "unique": false
     },
     "description": {
       "type": "string"
@@ -32,10 +32,6 @@
         "videos",
         "audios"
       ]
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "geolocation"
     },
     "users_permissions_users": {
       "type": "relation",
