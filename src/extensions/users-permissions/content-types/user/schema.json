@@ -67,11 +67,6 @@
       "type": "uid",
       "targetField": "username"
     },
-    "billing_address": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::billing-address.billing-address"
-    },
     "shipping_address": {
       "type": "relation",
       "relation": "oneToOne",
