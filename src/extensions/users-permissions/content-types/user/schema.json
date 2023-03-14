@@ -77,6 +77,27 @@
       "relation": "manyToOne",
       "target": "api::post.post",
       "inversedBy": "users_permissions_users"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    },
+    "state": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "streetAddress": {
+      "type": "email"
+    },
+    "companyName": {
+      "type": "string"
     }
   }
 }
