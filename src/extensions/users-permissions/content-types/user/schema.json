@@ -93,11 +93,11 @@
     "city": {
       "type": "string"
     },
-    "streetAddress": {
-      "type": "email"
-    },
     "companyName": {
       "type": "string"
+    },
+    "streetAddress": {
+      "type": "text"
     }
   }
 }
