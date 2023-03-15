@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shipping-address",
     "pluralName": "shipping-addresses",
-    "displayName": "shipping-address"
+    "displayName": "shipping-address",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,7 +35,7 @@
       "type": "string"
     },
     "phoneNumber": {
-      "type": "biginteger"
+      "type": "integer"
     }
   }
 }

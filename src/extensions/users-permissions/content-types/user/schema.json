@@ -85,7 +85,7 @@
       "type": "string"
     },
     "phoneNumber": {
-      "type": "biginteger"
+      "type": "integer"
     },
     "state": {
       "type": "string"
