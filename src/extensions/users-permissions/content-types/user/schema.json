@@ -84,9 +84,6 @@
     "firstName": {
       "type": "string"
     },
-    "phoneNumber": {
-      "type": "integer"
-    },
     "state": {
       "type": "string"
     },
@@ -98,6 +95,9 @@
     },
     "streetAddress": {
       "type": "text"
+    },
+    "phoneNumber": {
+      "type": "string"
     }
   }
 }
