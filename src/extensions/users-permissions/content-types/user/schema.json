@@ -70,7 +70,8 @@
     "shipping_address": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::shipping-address.shipping-address"
+      "target": "api::shipping-address.shipping-address",
+      "inversedBy": "user"
     },
     "post": {
       "type": "relation",
